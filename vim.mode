@@ -1,0 +1,5 @@
+(name Vim)
+
+(match (keys [: e]) (menu file/open))
+(match (keys [: s]) (menu file/save))
+(match (keys [: q]) (menu file/quit))
